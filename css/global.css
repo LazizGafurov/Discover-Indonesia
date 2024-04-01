@@ -1,0 +1,36 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    
+    font-family: 'Open Sans';
+    font-weight: 700;
+    src: url('/fonts/static/OpenSans/OpenSans-SemiBold.ttf')
+}
+
+main {
+    background-color: black;
+    margin: 0 auto;
+}
+
+#matrix {
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+
+#arrowTop::before {
+    content: '^';
+    
+  }
+
+  #arrowTop {
+    height: 30px;
+    width: 30px;
+    color: black;
+    position: fixed;
+   bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    background-color: orange;
+    text-align: center;
+  }
